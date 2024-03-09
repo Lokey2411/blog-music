@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-primary-gradient {
+	/* .bg-primary; */
+	background: -webkit-linear-gradient(151deg, #07a3b2 0%, #d9ecc7 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-secondary-gradient {
+	background-image: -webkit-linear-gradient(151deg, #f6b2e1 0%, #58126a 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-tertiary-gradient {
+	background-image: -webkit-linear-gradient(151deg, #a96f44 0%, #f2ecb6 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-primary-gradient-reverse {
+	/* .bg-primary; */
+	background: -webkit-linear-gradient(151deg, #d9ecc7 0%, #07a3b2 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-secondary-gradient-reverse {
+	background-image: -webkit-linear-gradient(151deg, #58126a 0%, #f6b2e1 60%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
